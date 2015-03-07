@@ -1,0 +1,9 @@
+---
+defaults:
+- scope:
+    path: ''
+    type: 'pages'
+  values:
+    encoding: 'urf-8'
+    layout: 'page'
+    title: 'Sleeping King Studios'

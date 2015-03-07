@@ -1,0 +1,8 @@
+# .gitignore
+
+# Ignore generated site files.
+/_site
+
+# Ignore local configuration files.
+/.ruby-gemset
+/.ruby-version
