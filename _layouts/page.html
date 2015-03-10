@@ -10,16 +10,39 @@
     <title>{{ page.title }}</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/stylesheets.css">
+    <link rel="stylesheet" href="/assets/stylesheets.css">
 
-    <script src="assets/javascripts.js"></script>
+    <script src="/assets/javascripts.js"></script>
   </head>
 
-  <body>
-    <div class="container">
-      <h1>{{ page.title }}</h1>
+  <body class="container">
+    <h1 class="title text-center" style="margin-top:10px;">{{ page.title }}</h1>
 
-      {{ content }}
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="hidden-xs">
+          <hr style="margin-top:0px;">
+
+          <h3>Site Navigation</h3>
+        </div>
+
+        <nav>
+          <ul>
+            <li><h4><a href="/">Home</a></h4></li>
+            <li><h4><a href="/projects">Projects</a></h4></li>
+            <li><h4><a href="/about">About</a></h4></li>
+          </ul>
+        </nav>
+
+        <div class="hidden-xs">
+          <hr>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <hr style="margin-top:0px;">
+
+        {{ content }}
+      </div>
     </div>
   </body>
 </html>

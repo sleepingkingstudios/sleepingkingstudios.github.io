@@ -8,3 +8,45 @@ layout: nil
 {% include assets/stylesheets/twitter-bootstrap/bootstrap-theme.min.css %}
 
 {% include assets/stylesheets/font-awesome.min.css %}
+
+/* Local styles. */
+
+nav ul {
+  padding-left: 0px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    text-align: center;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+hr {
+  border-top: 2px solid #333;
+}
+
+hr:after {
+  content: ' ';
+
+  /* Display */
+  display: block;
+  border-top: 1px solid #666;
+  margin: 0 10px;
+
+  /* Positioning */
+  position: relative;
+  top: 2px;
+}
