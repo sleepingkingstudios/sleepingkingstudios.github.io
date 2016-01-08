@@ -25,6 +25,10 @@ nav ul li {
   }
 }
 
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -32,6 +36,10 @@ h4,
 h5,
 h6 {
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 hr {

@@ -5,16 +5,16 @@
 
 ## About This Site
 
-This site runs on [Jekyll.rb](http://jekyllrb.com/), a lightweight solution for content management, and is hosted on [GitHub pages](https://pages.github.com/). The content is written in [Markdown](http://daringfireball.net/projects/markdown/) and styled using the [Twitter Bootstrap](http://getbootstrap.com/) responsive framework. Try it out on your desktop and your mobile devices!
+This site runs on [<i class="fa fa-flask"></i> Jekyll](http://jekyllrb.com/), a lightweight solution for content management, and is hosted on [<i class="fa fa-github"></i> GitHub pages](https://pages.github.com/). The content is written in [Markdown](http://daringfireball.net/projects/markdown/) and styled using the [Twitter Bootstrap](http://getbootstrap.com/) responsive framework. Try it out on your desktop and your mobile devices! Icons are provided courtesy of [<i class="fa fa-flag"></i> Font Awesome](https://fortawesome.github.io/Font-Awesome/).
 
 ## About The Author
 
-My name is Rob Smith. I am a software engineer in the New York City area with a background in mechanical engineering, game development and tabletop game design. I currently work as a Ruby engineer for [Vestorly.com](https://www.vestorly.com) and work on various projects in my spare time, some of which I [showcase here](/projects).
+{% include snippets/about_me.md %}
 
-Still curious? [Read more](/about/me.html).
+Still curious? [<i class="fa fa-arrow-right"></i> Read more](/about/me.html).
 
 ## About Sleeping King Studios
 
 You may be thinking that one designer on a laptop does not a “studios” make. You, sir or ma'am, are absolutely correct. But I like the name, so I'm keeping it.
 
-[Back to Home](/)
+[<i class="fa fa-home"></i> Back to Home](/)

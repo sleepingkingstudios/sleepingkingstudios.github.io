@@ -42,4 +42,4 @@ A content management system framework built on Rails. Under active development.
 
 Add support for [Mongoid](http://mongoid.org/en/mongoid/index.html) documents and collections to `sprig`. A pull request is pending at the time of writing.
 
-[Back to Home](/)
+[<i class="fa fa-home"></i> Back to Home](/)

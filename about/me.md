@@ -1,15 +1,13 @@
 ---
 ---
 
-# About
-
-## About The Author
+# About Me
 
 With earnest apologies to Sir J. M. Barrie and J. Michael Straczynski.
 
 ### Who Are You?
 
-My name is Rob Smith. I am a software engineer in the New York City area with a background in mechanical engineering, game development and tabletop game design. I currently work as a Ruby engineer for [Vestorly.com](https://www.vestorly.com) and work on various projects in my spare time, some of which I [showcase here](/projects).
+{% include snippets/about_me.md %}
 
 ### What Do You Want?
 
@@ -23,10 +21,10 @@ Second star to the right, and straight on 'till morning.
 
 ### Who Do You Serve, And Who Do You Trust?
 
-I currently work as a Ruby engineer for [Vestorly.com](https://www.vestorly.com), building out their web application and integrations with clients, partners, and the wider ecosystem. I've previously worked as a game developer and design and develop small game projects on the side.
+I currently work as a Ruby engineer for [Vestorly.com](https://www.vestorly.com), building out their web application and integrations with clients, partners, and the wider ecosystem. My current professional focus is on web server development, but I have also worked with general web technologies and a range of platforms, as a game developer for an online social interactive network, and design and develop small game projects on the side.
 
 I have also contributed to tabletop gaming sourcebooks for Blue Devil Games, including <em>Tell It To My Axe!</em> and <em>Akashic Nodes</em>.
 
-[Back to About](/about)
+[<i class="fa fa-home"></i> Back to Home](/)
 |
-[Back to Home](/)
+[<i class="fa fa-arrow-left"></i> Back to About](/about)
