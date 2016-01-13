@@ -25,6 +25,6 @@ I currently work as a Ruby engineer for [Vestorly.com](https://www.vestorly.com)
 
 I have also contributed to tabletop gaming sourcebooks for Blue Devil Games, including <em>Tell It To My Axe!</em> and <em>Akashic Nodes</em>.
 
-[<i class="fa fa-home"></i> Back to Home](/)
+[<i class="fa fa-fw fa-home"></i> Back to Home](/)
 |
-[<i class="fa fa-arrow-left"></i> Back to About](/about)
+[<i class="fa fa-fw fa-arrow-left"></i> Back to About](/about)
