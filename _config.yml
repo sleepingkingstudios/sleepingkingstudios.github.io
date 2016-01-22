@@ -1,4 +1,11 @@
 ---
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - assets/javascripts/src
 defaults:
 - scope:
     path: ''

@@ -1,0 +1,11 @@
+{
+  "name": "sleepingkingstudios.github.io",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "babel assets/javascripts/src -d assets/javascripts"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}

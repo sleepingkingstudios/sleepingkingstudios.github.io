@@ -6,3 +6,6 @@
 # Ignore local configuration files.
 /.ruby-gemset
 /.ruby-version
+
+# Ignore installed Node.js modules
+/node_modules
