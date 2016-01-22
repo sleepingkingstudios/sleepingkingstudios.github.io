@@ -46,3 +46,7 @@ mailerUrl: https://gentle-depths-5552.herokuapp.com/contact
     </a>
   </div>
 </form>
+
+##### Privacy Notice
+
+By clicking "Contact Me", you agree to share your contact information with Sleeping King Studios. For more information on how we handle your information, see our [Privacy Policy](/about/privacy.html).
