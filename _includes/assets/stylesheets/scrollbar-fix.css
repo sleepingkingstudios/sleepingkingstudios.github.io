@@ -1,0 +1,10 @@
+/* _includes/assets/stylesheets/scrollbar-fix.css */
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: initial;
+}

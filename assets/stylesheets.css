@@ -9,7 +9,17 @@ layout: nil
 
 {% include assets/stylesheets/font-awesome.min.css %}
 
+{% include assets/stylesheets/flex-layout.css %}
+{% include assets/stylesheets/scrollbar-fix.css %}
+
 /* Local styles. */
+
+body {
+  background-attachment: fixed;
+  background-image:      url('images/background-tree-e5e5e5.png');
+  background-position:   center center;
+  background-repeat:     no-repeat;
+}
 
 nav ul {
   padding-left: 0px;

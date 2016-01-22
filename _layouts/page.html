@@ -15,69 +15,77 @@
     <script src="/assets/javascripts.js"></script>
   </head>
 
-  <body class="container">
-    <h1 class="title text-center" style="margin-top:10px;">{{ page.title }}</h1>
+  <body>
+    <div class="container container-flex">
+      <h1 class="title text-center" style="margin-top:10px;">{{ page.title }}</h1>
 
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="hidden-xs">
-          <hr style="margin-top:0px;">
-
-          <h3>
-            <span class="visible-lg-inline">Site</span>
-            Navigation
-          </h3>
-        </div>
-
-        <nav>
-          <ul>
-            <li>
-              <h4>
-                <a href="/">
-                  <i class="fa fa-fw fa-sm fa-home hidden-xs"></i>
-                  Home
-                </a>
-              </h4>
-            </li>
-            <li>
-              <h4>
-                <a href="/projects">
-                  <i class="fa fa-fw fa-rocket hidden-xs"></i>
-                  Projects
-                </a>
-              </h4>
-            </li>
-            <li>
-              <h4>
-                <a href="/about">
-                  <i class="fa fa-fw fa-question hidden-xs"></i>
-                  About
-                </a>
-              </h4>
-            </li>
-          </ul>
-
+      <div class="row">
+        <div class="col-sm-3">
           <div class="hidden-xs">
-            <hr>
+            <hr style="margin-top:0px;">
+
+            <h3>
+              <span class="visible-lg-inline">Site</span>
+              Navigation
+            </h3>
           </div>
 
-          <ul>
-            <li>
-              <h4>
-                <a href="/contact.html">
-                  <i class="fa fa-fw fa-envelope hidden-xs"></i>
-                  Contact Me
-                </a>
-              </h4>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="col-sm-9">
-        <hr style="margin-top:0px;">
+          <nav>
+            <ul>
+              <li>
+                <h4>
+                  <a href="/">
+                    <i class="fa fa-fw fa-sm fa-home hidden-xs"></i>
+                    Home
+                  </a>
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  <a href="/projects">
+                    <i class="fa fa-fw fa-rocket hidden-xs"></i>
+                    Projects
+                  </a>
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  <a href="/about">
+                    <i class="fa fa-fw fa-question hidden-xs"></i>
+                    About
+                  </a>
+                </h4>
+              </li>
+            </ul>
 
-        {{ content }}
+            <div class="hidden-xs">
+              <hr>
+            </div>
+
+            <ul>
+              <li>
+                <h4>
+                  <a href="/contact.html">
+                    <i class="fa fa-fw fa-envelope hidden-xs"></i>
+                    Contact Me
+                  </a>
+                </h4>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-9">
+          <hr style="margin-top:0px;">
+
+          {{ content }}
+        </div>
       </div>
     </div>
+
+    <footer class="container">
+      <hr>
+
+      <p class="text-center" style="margin-bottom: 20px;"><em>Hic Iacet Arthurus, Rex Quondam, Rexque Futurus</em></p>
+    </footer>
   </body>
 </html>
