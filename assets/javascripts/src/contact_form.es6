@@ -284,6 +284,12 @@ class ContactForm extends SleepingKingStudios.Form {
       let json  = request.responseJSON;
       console.log(json);
 
+      if(json == null || typeof json == 'undefined' || json.message == null || typeof json.message == 'undefined') {
+        form.alerts.danger('Unable to connect to the mail server', 'Error');
+
+        return;
+      } // end if
+
       form.alerts.danger(json.message, 'Error');
 
       let errors = form._normalizeErrors(json.errors);

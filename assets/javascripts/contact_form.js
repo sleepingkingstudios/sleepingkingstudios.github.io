@@ -396,6 +396,12 @@ var ContactForm = function (_SleepingKingStudios$4) {
         var json = request.responseJSON;
         console.log(json);
 
+        if (json == null || typeof json == 'undefined' || json.message == null || typeof json.message == 'undefined') {
+          form.alerts.danger('Unable to connect to the mail server', 'Error');
+
+          return;
+        } // end if
+
         form.alerts.danger(json.message, 'Error');
 
         var errors = form._normalizeErrors(json.errors);
