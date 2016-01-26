@@ -52,6 +52,23 @@ a:hover {
   text-decoration: none;
 }
 
+blockquote {
+  font-size: inherit;;
+}
+
+blockquote.blockquote-fancy {
+  font-size: 17.5px;
+}
+
+blockquote > h1:first-child,
+blockquote > h2:first-child,
+blockquote > h3:first-child,
+blockquote > h4:first-child,
+blockquote > h5:first-child,
+blockquote > h6:first-child {
+  margin-top: 0px;
+}
+
 hr {
   border-top: 2px solid #333;
 }

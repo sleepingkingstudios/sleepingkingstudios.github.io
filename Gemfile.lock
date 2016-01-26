@@ -126,3 +126,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (>= 33)
   jekyll-docs
+  jekyll-redirect-from
+
+BUNDLED WITH
+   1.11.2

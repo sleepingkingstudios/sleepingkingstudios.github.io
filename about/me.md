@@ -13,7 +13,7 @@ With earnest apologies to Sir J. M. Barrie and J. Michael Straczynski.
 
 To put smiles on people's faces. To tell stories that entertain, enlighten, and explore the intersections and boundaries of narrative and play. Or, in the words of [Sharon Apple](http://www.imdb.com/title/tt0110426/?ref_=nv_sr_1):
 
-<blockquote>"It's what you want to give to each person. Your feelings, the feelings you believe they should have. To give to the one you love her greatest dreams. To give her the ultimate emotion - the feeling of total life, a vision of all the world's colours at once. That is the reason for my existence."</blockquote>
+<blockquote class="blockquote-fancy">"It's what you want to give to each person. Your feelings, the feelings you believe they should have. To give to the one you love her greatest dreams. To give her the ultimate emotion - the feeling of total life, a vision of all the world's colours at once. That is the reason for my existence."</blockquote>
 
 ### Where Are You Going?
 
