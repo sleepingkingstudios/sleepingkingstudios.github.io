@@ -21,7 +21,7 @@ Second star to the right, and straight on 'till morning.
 
 ### Who Do You Serve, And Who Do You Trust?
 
-I currently work as a Ruby engineer for [Vestorly.com](https://www.vestorly.com), building out their web application and integrations with clients, partners, and the wider ecosystem. My current professional focus is on web server development, but I have also worked with general web technologies and a range of platforms, as a game developer for an online social interactive network, and design and develop small game projects on the side.
+I currently work as a senior software engineer in New York City. My current professional focus is on web server development, but I have also worked with general web technologies and a range of platforms, as a game developer for an online social interactive network, and design and develop small game projects on the side.
 
 I have also contributed to tabletop gaming sourcebooks for Blue Devil Games, including <em>Tell It To My Axe!</em> and <em>Akashic Nodes</em>.
 
