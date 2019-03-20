@@ -8,13 +8,13 @@ GitHub Pages for Sleeping King Studios
 ```
 bundle install # Install Ruby gems.
 
-npm install    # Install Node modules.
+yarn install    # Install Node modules.
 ```
 
 ### Compiling ES6 to JavaScript
 
 ```
-npm run build
+yarn run build
 ```
 
 ### Running A Server
