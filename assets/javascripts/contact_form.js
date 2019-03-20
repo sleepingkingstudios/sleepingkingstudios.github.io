@@ -36,9 +36,9 @@ SleepingKingStudios.Utilities = {};
 
       return ary[ary.length - 1];
     } // end method toPropertyName
-  }; // end object
+    // end object
 
-  SleepingKingStudios.WrappedHtmlNode = function () {
+  };SleepingKingStudios.WrappedHtmlNode = function () {
     function WrappedHtmlNode(rootElement) {
       _classCallCheck(this, WrappedHtmlNode);
 
@@ -64,7 +64,7 @@ SleepingKingStudios.Utilities = {};
     function FormGroup(rootElement) {
       _classCallCheck(this, FormGroup);
 
-      var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(FormGroup).call(this, rootElement));
+      var _this = _possibleConstructorReturn(this, (FormGroup.__proto__ || Object.getPrototypeOf(FormGroup)).call(this, rootElement));
 
       var $input = _this.$input = _this._findInput();
 
@@ -124,7 +124,7 @@ SleepingKingStudios.Utilities = {};
     function Form(rootElement) {
       _classCallCheck(this, Form);
 
-      var _this2 = _possibleConstructorReturn(this, Object.getPrototypeOf(Form).call(this, rootElement));
+      var _this2 = _possibleConstructorReturn(this, (Form.__proto__ || Object.getPrototypeOf(Form)).call(this, rootElement));
 
       _this2._buildFields(rootElement);
       return _this2;
@@ -174,9 +174,9 @@ SleepingKingStudios.Utilities = {};
             for (var resultKey in results) {
               fragments.push(resultKey);
 
-              var joined = fragments.join(',');
+              var _joined = fragments.join(',');
 
-              flattened[joined] = results[resultKey];
+              flattened[_joined] = results[resultKey];
 
               fragments.pop();
             } // end for
@@ -210,8 +210,8 @@ SleepingKingStudios.Utilities = {};
     }, {
       key: "data",
       get: function get() {
-        var qualified = undefined;
-        var field = undefined;
+        var qualified = void 0;
+        var field = void 0;
         var data = {};
 
         for (qualified in this.fields) {
@@ -254,13 +254,13 @@ var Alerts = function (_SleepingKingStudios$3) {
   function Alerts() {
     _classCallCheck(this, Alerts);
 
-    return _possibleConstructorReturn(this, Object.getPrototypeOf(Alerts).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Alerts.__proto__ || Object.getPrototypeOf(Alerts)).apply(this, arguments));
   }
 
   _createClass(Alerts, [{
     key: "add",
     value: function add(type, message) {
-      var title = arguments.length <= 2 || arguments[2] === undefined ? null : arguments[2];
+      var title = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
 
       console.log("Alerts#add(), type = " + type + ", message = \"" + message + "\", title = \"" + title + "\"");
 
@@ -272,7 +272,7 @@ var Alerts = function (_SleepingKingStudios$3) {
   }, {
     key: "danger",
     value: function danger(message) {
-      var title = arguments.length <= 1 || arguments[1] === undefined ? null : arguments[1];
+      var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
 
       this.add('danger', message, title);
     } // end method danger
@@ -280,7 +280,7 @@ var Alerts = function (_SleepingKingStudios$3) {
   }, {
     key: "info",
     value: function info(message) {
-      var title = arguments.length <= 1 || arguments[1] === undefined ? null : arguments[1];
+      var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
 
       this.add('info', message, title);
     } // end method info
@@ -288,7 +288,7 @@ var Alerts = function (_SleepingKingStudios$3) {
   }, {
     key: "success",
     value: function success(message) {
-      var title = arguments.length <= 1 || arguments[1] === undefined ? null : arguments[1];
+      var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
 
       this.add('success', message, title);
     } // end method success
@@ -302,7 +302,7 @@ var Alerts = function (_SleepingKingStudios$3) {
   }, {
     key: "warning",
     value: function warning(message) {
-      var title = arguments.length <= 1 || arguments[1] === undefined ? null : arguments[1];
+      var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
 
       this.add('warning', message, title);
     } // end method success
@@ -316,7 +316,7 @@ var Alerts = function (_SleepingKingStudios$3) {
     // Private Methods
 
     value: function _build(type, message) {
-      var title = arguments.length <= 2 || arguments[2] === undefined ? null : arguments[2];
+      var title = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
 
       var $alert = jQuery('<p>');
       $alert.addClass("alert alert-" + type);
@@ -354,7 +354,7 @@ var ContactForm = function (_SleepingKingStudios$4) {
   function ContactForm(rootElement, alerts) {
     _classCallCheck(this, ContactForm);
 
-    var _this4 = _possibleConstructorReturn(this, Object.getPrototypeOf(ContactForm).call(this, rootElement));
+    var _this4 = _possibleConstructorReturn(this, (ContactForm.__proto__ || Object.getPrototypeOf(ContactForm)).call(this, rootElement));
 
     _this4.alerts = alerts;
 

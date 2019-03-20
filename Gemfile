@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'github-pages'
+gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-docs'
 
-ruby "2.4.1"
+ruby "2.5.3"
