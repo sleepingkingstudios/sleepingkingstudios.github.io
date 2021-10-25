@@ -40,6 +40,10 @@ The `stannum` gem is a library for defining and validating data structures. It d
 
 The `zinke` gem implements the Reducer pattern in Ruby, as seen in JavaScript libraries like React and languages like Elm. This provides a Store that serves as a single, stable source of truth for stateful applications.
 
+<hr style="margin: 0 auto 1em; max-width: 75%; opacity: 0.5;" />
+
+## Other Libraries
+
 ### RSpec::SleepingKingStudios
 
 - Language: Ruby

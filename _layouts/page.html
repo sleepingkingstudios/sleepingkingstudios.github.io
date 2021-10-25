@@ -21,79 +21,24 @@
     <div class="container container-flex">
       <h1 class="title text-center" style="margin-top:10px;">{{ page.title }}</h1>
 
-      <hr style="margin-top:0px;">
+      <hr class="d-block d-md-none" style="margin-top:0px;">
 
       <div class="row">
-        <div class="col-md-3">
-          <nav>
-            <ul>
-              <li>
-                <h4>
-                  <a href="/">
-                    <i class="fa fa-fw fa-sm fa-home d-none d-sm-inline-block"></i>
-                    Home
-                  </a>
-                </h4>
-              </li>
-              <li>
-                <h4>
-                  <a href="/projects">
-                    <i class="fa fa-fw fa-rocket d-none d-sm-inline-block"></i>
-                    Projects
-                  </a>
-                </h4>
-              </li>
-              <li>
-                <h4>
-                  <a href="/about">
-                    <i class="fa fa-fw fa-question d-none d-sm-inline-block"></i>
-                    About
-                  </a>
-                </h4>
-              </li>
-            </ul>
-          </nav>
+        <div class="col-12 col-xl-3">
+          <hr class="d-none d-xl-block" style="margin-top:0px;">
 
+          {% include navigation.md %}
+
+          <div class="d-none d-xl-block">
+            <h5>Contact Me</h5>
+
+            {% include contact.md %}
+          </div>
+        </div>
+
+        <div class="col-12 col-xl-9">
           <hr style="margin-top:0px;">
 
-          <div>
-            <h5 class="text-center text-md-start">Contact Me</h5>
-
-            <ul class="contact-list">
-              <li>
-                <a href="mailto:merlin@sleepingkingstudios.com">
-                  <i class="fa fa-fw fa-envelope d-inline-block d-xl-none d-xxl-inline-block"></i>
-                  <span class="d-inline d-xl-none">
-                    Email
-                  </span>
-                  <span class="d-none d-xl-inline">
-                    merlin@sleepingkingstudios.com
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/sleepingkingstudios/">
-                  <i class="fa fa-fw fa-github d-inline-block d-xl-none d-xxl-inline-block"></i>
-                  <span class="d-inline d-xl-none">
-                    GitHub
-                  </span>
-                  <span class="d-none d-xl-inline">
-                    Sleeping King Studios
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/robert-smith-bba5a84/">
-                  <i class="fa fa-fw fa-linkedin d-inline-block d-xl-none d-xxl-inline-block"></i>
-                  LinkedIn
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <hr class="d-block d-md-none" style="margin-top:0px;">
-        </div>
-        <div class="col-md-9">
           {{ content }}
         </div>
       </div>

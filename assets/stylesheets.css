@@ -24,6 +24,7 @@ nav ul, ul.contact-list {
 
 nav ul li, ul.contact-list li {
   list-style: none;
+  margin-left: 0;
 }
 
 @media (max-width: 768px) {
@@ -65,6 +66,10 @@ hr:after {
   /* Positioning */
   position: relative;
   top: 2px;
+}
+
+ul li {
+  margin-left: 1em;
 }
 
 .card {

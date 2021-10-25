@@ -1,4 +1,16 @@
-<hr>
+<div class="row">
+  <div class="col-12 col-xl-3 d-none d-xl-block">
+    <hr>
+  </div>
+
+  <div class="col-12 col-xl-9">
+    <hr>
+  </div>
+</div>
+
+<div class="d-block d-xl-none text-center">
+  {% include contact.md %}
+</div>
 
 <p class="text-center">
   Sleeping King Studios is <i class="fa fa-copyright"></i> Copyright 2019-2021 Rob Smith
