@@ -3,40 +3,49 @@
 
 # Projects
 
-The following projects are currently under development and/or in active use.
-
-## Bronze
-
-- Language: Ruby
-- Source Code: [GitHub](https://github.com/sleepingkingstudios/bronze/tree/development)
-- Rubygems: [Link](https://rubygems.org/gems/bronze)
-
-A composable application toolkit, providing data entities, collections, and transforms. Architecture agnostic for easy integration with other toolkits or frameworks.
+The following projects are currently under development.
 
 ## Cuprum
 
 - Language: Ruby
 - Source Code: [GitHub](https://github.com/sleepingkingstudios/cuprum)
-- Documentation: [RubyDoc](https://www.rubydoc.info/github/sleepingkingstudios/cuprum)
 - Rubygems: [Link](https://rubygems.org/gems/cuprum)
+- Version: 1.0.0 Release Candidate 1
 
-An opinionated implementation of the Command pattern for Ruby applications. Cuprum wraps your business logic in a consistent, object-oriented interface and features status and error management, composability and control flow management.
+The `cuprum` gem provides an opinionated implementation of the Command pattern for Ruby applications. Cuprum wraps your business logic in a consistent, object-oriented interface and features status and error management, composability and control flow management.
+
+### Cuprum::Collections
+
+- Language: Ruby
+- Source Code: [GitHub](https://github.com/sleepingkingstudios/cuprum-collections)
+- Rubygems: [Link](https://rubygems.org/gems/cuprum-collections)
+- Version: 0.1.0
+
+The `cuprum-collections` gem is an adapter library which provides a consistent interface between data stores. Imagine seamlessly switching between relational and document-based data stores, or using a fast in-memory store to run your unit tests.
+
+## Stannum
+
+- Language: Ruby
+- Source Code: [GitHub](https://github.com/sleepingkingstudios/stannum/)
+- Rubygems: [Link](https://rubygems.org/gems/stannum)
+- Version: 0.2.0
+
+The `stannum` gem is a library for defining and validating data structures. It defines `Constraint`s, `Contract`s, and `Struct`s to structure and validate data without relying on a framework or ORM.
 
 ## Zinke
 
 - Language: Ruby
 - Source Code: [GitHub](https://github.com/sleepingkingstudios/zinke)
+- Version: 0.1.0 Alpha
 
-The Zinke gem implements the Reducer pattern in Ruby, as seen in JavaScript libraries like React and languages like Elm. This provides a Store that serves as a single, stable source of truth for stateful applications.
-
-## Other Libraries
+The `zinke` gem implements the Reducer pattern in Ruby, as seen in JavaScript libraries like React and languages like Elm. This provides a Store that serves as a single, stable source of truth for stateful applications.
 
 ### RSpec::SleepingKingStudios
 
 - Language: Ruby
 - Source Code: [GitHub](https://github.com/sleepingkingstudios/rspec-sleeping_king_studios)
-- Documentation: [RubyDoc](http://www.rubydoc.info/github/sleepingkingstudios/rspec-sleeping_king_studios)
 - Rubygems: [Link](https://rubygems.org/gems/rspec-sleeping_king_studios)
+- Version: 2.6.0
 
 `rspec-sleeping_king_studios` is a collection of matchers and extensions to ease TDD/BDD using [RSpec](http://rspec.info/). Extends built-in matchers with new functionality, such as support for Ruby 2.0+ keyword arguments, and adds new matchers for testing boolean-ness, object reader/writer properties, object constructor arguments, ActiveModel validations, and more. Also defines shared example groups for more expressive testing.
 
