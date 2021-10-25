@@ -15,8 +15,6 @@ This site runs on [<i class="fa fa-flask"></i> Jekyll](http://jekyllrb.com/), a 
 
 [<i class="fa fa-fw fa-arrow-right"></i> Read More](/about/me.html)
 
-[<i class="fa fa-fw fa-envelope"></i> Contact Me](/contact.html)
-
 ## About Sleeping King Studios
 
 You may be thinking that one designer on a laptop does not a “studios” make. You, sir or ma'am, are absolutely correct. But I like the name, so I'm keeping it.

@@ -4,9 +4,6 @@ layout: nil
 
 /* Included files. */
 
-{% include assets/stylesheets/twitter-bootstrap/bootstrap.min.css %}
-{% include assets/stylesheets/twitter-bootstrap/bootstrap-theme.min.css %}
-
 {% include assets/stylesheets/font-awesome.min.css %}
 
 {% include assets/stylesheets/flex-layout.css %}
@@ -21,16 +18,16 @@ body {
   background-repeat:     no-repeat;
 }
 
-nav ul {
+nav ul, ul.contact-list {
   padding-left: 0px;
 }
 
-nav ul li {
+nav ul li, ul.contact-list li {
   list-style: none;
 }
 
 @media (max-width: 768px) {
-  nav ul li {
+  nav ul li, ul.contact-list li {
     text-align: center;
   }
 }
@@ -48,12 +45,13 @@ h6 {
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 }
 
-a:hover {
+a {
   text-decoration: none;
 }
 
 hr {
-  border-top: 2px solid #333;
+  border-top: 2px solid #000;
+  opacity: 1;
 }
 
 hr:after {
@@ -61,7 +59,7 @@ hr:after {
 
   /* Display */
   display: block;
-  border-top: 1px solid #666;
+  border-top: 1px solid #000;
   margin: 0 10px;
 
   /* Positioning */
