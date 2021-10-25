@@ -1,4 +1,5 @@
 # sleepingkingstudios.github.io
+
 GitHub Pages for Sleeping King Studios
 
 ## Local Development
@@ -8,7 +9,7 @@ GitHub Pages for Sleeping King Studios
 ```
 bundle install # Install Ruby gems.
 
-yarn install    # Install Node modules.
+yarn install   # Install Node modules.
 ```
 
 ### Compiling ES6 to JavaScript
