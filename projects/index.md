@@ -19,9 +19,18 @@ The `cuprum` gem provides an opinionated implementation of the Command pattern f
 - Language: Ruby
 - Source Code: [GitHub](https://github.com/sleepingkingstudios/cuprum-collections)
 - Rubygems: [Link](https://rubygems.org/gems/cuprum-collections)
-- Version: 0.1.0
+- Version: 0.2.0
 
 The `cuprum-collections` gem is an adapter library which provides a consistent interface between data stores. Imagine seamlessly switching between relational and document-based data stores, or using a fast in-memory store to run your unit tests.
+
+### Cuprum::Rails
+
+- Language: Ruby
+- Source Code: [GitHub](https://github.com/sleepingkingstudios/cuprum-rails)
+- Rubygems: [Link](https://rubygems.org/gems/cuprum-rails)
+- Version: 0.1.0
+
+The `cuprum-rails` gem provides an integration between `Cuprum` and the `Rails` framework, with a configuration-based approach to defining resourceful controllers. Reduce boilerplate and improve the testability and reusability of your business logic.
 
 ## Stannum
 
