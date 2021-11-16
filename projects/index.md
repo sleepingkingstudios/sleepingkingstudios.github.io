@@ -10,9 +10,11 @@ The following projects are currently under development.
 - Language: Ruby
 - Source Code: [GitHub](https://github.com/sleepingkingstudios/cuprum)
 - Rubygems: [Link](https://rubygems.org/gems/cuprum)
-- Version: 1.0.0 Release Candidate 1
+- Version: 1.0.0
 
 The `cuprum` gem provides an opinionated implementation of the Command pattern for Ruby applications. Cuprum wraps your business logic in a consistent, object-oriented interface and features status and error management, composability and control flow management.
+
+[<i class="fa fa-fw fa-arrow-right"></i> Read More](https://github.com/sleepingkingstudios/cuprum#readme)
 
 ### Cuprum::Collections
 

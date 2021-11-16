@@ -13,7 +13,7 @@ Welcome to Sleeping King Studios. I'm Rob Smith, a software and web technologies
       The <code>cuprum</code> gem provides an opinionated implementation of the Command pattern for Ruby applications. Cuprum wraps your business logic in a consistent, object-oriented interface and features status and error management, composability and control flow management.
     </p>
 
-    <a href="/projects" class="card-link">
+    <a href="https://github.com/sleepingkingstudios/cuprum#readme" class="card-link">
       <i class="fa fa-fw fa-arrow-right"></i>
       Read More
     </a>
