@@ -15,4 +15,7 @@ exclude:
   - Rakefile
   - /vendor
 github: false
+markdown: kramdown
 repository: sleepingkingstudios/sleepingkingstudios.github.io
+title: Sleeping King Studios
+description: The home page for Sleeping King Studios.
