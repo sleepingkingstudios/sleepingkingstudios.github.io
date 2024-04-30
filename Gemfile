@@ -1,8 +1,18 @@
 # frozen_string_literal: true
 
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'github-pages', '>= 228', group: :jekyll_plugins
-gem 'webrick'
+gem 'jekyll', '~> 4.3'
 
-ruby '2.7.8'
+# See https://github.com/pages-themes/primer
+gem 'jekyll-theme-primer',
+  branch: 'main',
+  git:    'https://github.com/sleepingkingstudios/jekyll-theme-primer'
+
+# Use Kramdown to parse GFM-dialect Markdown.
+gem 'kramdown-parser-gfm', '~> 1.1'
+
+# Use Webrick as local content server.
+gem 'webrick', '~> 1.8'
+
+ruby '3.3.1'
