@@ -1,11 +1,4 @@
 ---
-exclude:
-  - node_modules
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - README.md
-  - assets/javascripts/src
 defaults:
 - scope:
     path: ''
@@ -14,3 +7,12 @@ defaults:
     encoding: 'urf-8'
     layout: 'page'
     title: 'Sleeping King Studios'
+exclude:
+  - .git
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Rakefile
+  - /vendor
+github: false
+repository: sleepingkingstudios/sleepingkingstudios.github.io
