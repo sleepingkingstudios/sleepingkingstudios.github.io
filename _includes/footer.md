@@ -13,7 +13,7 @@
 </div>
 
 <p class="text-center">
-  Sleeping King Studios is <i class="fa fa-copyright"></i> Copyright 2019-2023 Rob Smith
+  Sleeping King Studios is <i class="fa fa-copyright"></i> Copyright 2019-2024 Rob Smith
   <i class="fa fa-fw fa-minus"></i>
   <a href="/about/privacy.html" target="_blank">
     Privacy Policy

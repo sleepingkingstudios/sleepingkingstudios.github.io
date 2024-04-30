@@ -51,8 +51,10 @@ a {
 }
 
 hr {
-  border-top: 2px solid #000;
+  border-top-style: solid;
+  border-top-width: 2px;
   opacity: 1;
+  overflow: visible;
 }
 
 hr:after {
