@@ -2,17 +2,12 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.3'
-
-# See https://github.com/pages-themes/primer
-gem 'jekyll-theme-primer',
-  branch: 'main',
-  git:    'https://github.com/sleepingkingstudios/jekyll-theme-primer'
+gem 'jekyll', '~> 4.4'
 
 # Use Kramdown to parse GFM-dialect Markdown.
 gem 'kramdown-parser-gfm', '~> 1.1'
 
 # Use Webrick as local content server.
-gem 'webrick', '~> 1.8', '>= 1.8.2'
+gem 'webrick', '~> 1.9'
 
-ruby '3.3.5'
+ruby '3.3.7'
