@@ -9,6 +9,7 @@ defaults:
     title: 'Sleeping King Studios'
 exclude:
   - .git
+  - .ruby-version
   - Gemfile
   - Gemfile.lock
   - README.md
