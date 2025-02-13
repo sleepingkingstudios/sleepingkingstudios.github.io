@@ -1,6 +1,20 @@
-<footer class="mt-auto">
+<footer>
+  {% if page.breadcrumbs %}
+  <div class="section">
+    <div class="container is-max-desktop">
+      <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul>
+          {% for breadcrumb in page.breadcrumbs %}
+            <li>{% if breadcrumb.url %}<a href="{{site.baseurl}}{{breadcrumb.url}}">{{ breadcrumb.label }}</a>{% else %}{{ breadcrumb.label }}{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+  {% endif %}
+
   <div class="footer">
-    <div class="container">
+    <div class="container is-max-desktop">
       <div class="columns has-text-centered is-size-5 mb-5">
         <div class="column">
           <strong>Contact</strong>
