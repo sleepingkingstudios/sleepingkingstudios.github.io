@@ -16,7 +16,8 @@ layout: hero
       {% capture card_body %}<p>
         Information about the author, Sleeping King Studios, or this website.
       </p>{% endcapture %}
-      {% include card.md icon="pen-nib" label="About" url="/about" body=card_body %}
+      {% capture card_url %}{{site.baseurl}}/about{% endcapture %}
+      {% include card.md icon="pen-nib" label="About" url=card_url body=card_body %}
     </div>
     <div class="cell is-flex-tablet">
       {% capture card_body %}<p>
