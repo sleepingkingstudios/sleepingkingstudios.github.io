@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container is-max-desktop">
-  <nav class="navbar" role="navigation" aria-label="main navigation" data-target="primary-navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation" data-controller="navbar">
     <div class="navbar-brand">
       <a class="navbar-item" href="{{site.baseurl}}/">
         <figure class="image is-32x32" style="top: 0.25rem;">
@@ -11,14 +11,14 @@ layout: default
         </figure>
         <span class="title is-size-4">Sleeping King Studios</span>
       </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-action="click->navbar#toggle" data-navbar-target="button">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div id="primary-navigation" class="navbar-menu">
+    <div id="primary-navigation" class="navbar-menu" data-navbar-target="menu">
       <div class="navbar-start">
         <a href="{{site.baseurl}}/about" class="navbar-item">
           About
@@ -37,3 +37,9 @@ layout: default
 {% include pages/main.md %}
 
 {% include pages/footer.md %}
+
+<script type="module">
+  import NavbarController from "{{site.baseurl}}/assets/javascript/navbar-controller.js";
+
+  window.Stimulus.register("navbar", NavbarController);
+</script>
