@@ -26,7 +26,7 @@ layout: default
         <a class="navbar-item">
           Portfolio
         </a>
-        <a class="navbar-item">
+        <a href="{{site.baseurl}}/resume" class="navbar-item">
           Resume
         </a>
       </div>

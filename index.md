@@ -34,7 +34,8 @@ layout: hero
       {% capture card_body %}<p>
         My professional accomplishments across a 14 year career as a professional software engineer.
       </p>{% endcapture %}
-      {% include card.md icon="file-lines" label="Resume" body=card_body %}
+      {% capture card_url %}{{site.baseurl}}/resume{% endcapture %}
+      {% include card.md icon="file-lines" label="Resume" url=card_url body=card_body %}
     </div>
   </div>
 </div>

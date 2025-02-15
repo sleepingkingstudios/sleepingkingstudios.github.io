@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/stylesheets/bulma.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/stylesheets/font-awesome.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/stylesheets/page.css">
+    {% for url in page.stylesheets %}
+    <link rel="stylesheet" href="{{site.baseurl}}/{{url}}">
+    {% endfor %}
 
     <script type="module">
       import { Application } from "{{site.baseurl}}/assets/javascript/stimulus.js";
