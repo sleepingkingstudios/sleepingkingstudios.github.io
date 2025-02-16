@@ -6,4 +6,5 @@ details.job-history summary div.columns {
 
 details.job-history p.job-history-tags {
   line-height: 2.5rem;
+  margin-left: 1rem;
 }

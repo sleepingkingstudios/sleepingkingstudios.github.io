@@ -139,12 +139,12 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Restaurant Service</span>
-    <span class="tag is-light is-light is-medium">Contract</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">MariaDB</span>
-    <span class="tag is-light is-primary is-medium">API Integrations</span>
+    <span class="tag is-info is-medium">Restaurant Service</span>
+    <span class="tag is-medium">Contract</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">MariaDB</span>
+    <span class="tag is-primary is-medium">API Integrations</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -178,12 +178,12 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Legal Services</span>
-    <span class="tag is-light is-light is-medium">Contract</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">ActiveStorage</span>
-    <span class="tag is-light is-primary is-medium">Command Line Tools</span>
+    <span class="tag is-info is-medium">Legal Services</span>
+    <span class="tag is-medium">Contract</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">ActiveStorage</span>
+    <span class="tag is-primary is-medium">Command Line Tools</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -217,11 +217,11 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Consumer Electronics</span>
-    <span class="tag is-light is-light is-medium">Contract</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">MariaDB</span>
+    <span class="tag is-info is-medium">Consumer Electronics</span>
+    <span class="tag is-medium">Contract</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">MariaDB</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -249,11 +249,11 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Healthcare Network Provisioning</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">PostgreSQL</span>
+    <span class="tag is-info is-medium">Healthcare Network Provisioning</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">PostgreSQL</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -281,12 +281,12 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Banking and Finance</span>
-    <span class="tag is-light is-light is-medium">Contract</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">MySQL</span>
-    <span class="tag is-light is-primary is-medium">JSON APIs</span>
+    <span class="tag is-info is-medium">Banking and Finance</span>
+    <span class="tag is-medium">Contract</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">MySQL</span>
+    <span class="tag is-primary is-medium">JSON APIs</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -317,13 +317,13 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">E-Commerce</span>
-    <span class="tag is-light is-info is-medium">Ticketing</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">Cucumber</span>
-    <span class="tag is-light is-primary is-medium">PostgreSQL</span>
+    <span class="tag is-info is-medium">E-Commerce</span>
+    <span class="tag is-info is-medium">Ticketing</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">Cucumber</span>
+    <span class="tag is-primary is-medium">PostgreSQL</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -354,14 +354,14 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Venue Management</span>
-    <span class="tag is-light is-info is-medium">Point Of Sale</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">Cucumber</span>
-    <span class="tag is-light is-primary is-medium">PostgreSQL</span>
-    <span class="tag is-light is-primary is-medium">JSON APIs</span>
+    <span class="tag is-info is-medium">Venue Management</span>
+    <span class="tag is-info is-medium">Point Of Sale</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">Cucumber</span>
+    <span class="tag is-primary is-medium">PostgreSQL</span>
+    <span class="tag is-primary is-medium">JSON APIs</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -389,12 +389,12 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Point Of Sale</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">PostgreSQL</span>
-    <span class="tag is-light is-primary is-medium">React</span>
+    <span class="tag is-info is-medium">Point Of Sale</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">PostgreSQL</span>
+    <span class="tag is-primary is-medium">React</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -422,13 +422,13 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">E-Commerce</span>
-    <span class="tag is-light is-info is-medium">Fashion</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">JavaScript</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">PostgreSQL</span>
+    <span class="tag is-info is-medium">E-Commerce</span>
+    <span class="tag is-info is-medium">Fashion</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">JavaScript</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">PostgreSQL</span>
   </p>
   <ul class="ml-4">
     <li>
@@ -456,14 +456,25 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Applicant Tracking</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">JavaScript</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">PostgreSQL</span>
-    <span class="tag is-light is-primary is-medium">REST APIs</span>
+    <span class="tag is-info is-medium">Applicant Tracking</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">JavaScript</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">PostgreSQL</span>
+    <span class="tag is-primary is-medium">REST APIs</span>
   </p>
+  <ul class="ml-4">
+    <li>
+      Architected and applied targeted solutions to expand business logic and resolve issues in deeply connected code base spanning multiple applications and platforms.
+    </li>
+    <li>
+      Supported close-knit development team and provided mentoring support and assistance to junior developers and team members.
+    </li>
+    <li>
+      Participated in high-level development and architecture meetings to chart the future of the technology stack and platform.
+    </li>
+  </ul>
 </details>
 
 <details open id="vestorly" class="block job-history">
@@ -482,14 +493,28 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Content Marketing</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">MongoDB</span>
-    <span class="tag is-light is-primary is-medium">Redis</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
-    <span class="tag is-light is-primary is-medium">Cucumber</span>
+    <span class="tag is-info is-medium">Content Marketing</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">MongoDB</span>
+    <span class="tag is-primary is-medium">Redis</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">Cucumber</span>
   </p>
+  <ul class="ml-4">
+    <li>
+      Rebuilt authentication system from the ground up to replace aging, insecure infrastructure with modernized and flexible architecture.
+    </li>
+    <li>
+      Designed and developed integration server as adapter layer to connect core services to partner and client APIs for compliance and content promotion, with support for configurable automatic integration with external web services on a per-user or per-organization basis as part of any business process.
+    </li>
+    <li>
+      Charted next-generation API for reader application, ensuring consistency in terminology for business models and both flexible and reusable implementation of functional relationships.
+    </li>
+    <li>
+      Modernized aging software infrastructure to improve performance, code quality and readability, test coverage, and system flexibility.
+    </li>
+  </ul>
 </details>
 
 <details open id="persado" class="block job-history">
@@ -508,14 +533,28 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Marketing</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">MySQL</span>
-    <span class="tag is-light is-primary is-medium">BackboneJS</span>
-    <span class="tag is-light is-primary is-medium">SCSS</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
+    <span class="tag is-info is-medium">Marketing</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">MySQL</span>
+    <span class="tag is-primary is-medium">BackboneJS</span>
+    <span class="tag is-primary is-medium">SCSS</span>
+    <span class="tag is-primary is-medium">RSpec</span>
   </p>
+  <ul class="ml-4">
+    <li>
+      Implemented key user-experience features and supported development with bug identification and resolution on major client-facing, deadline-constrained application integrated with major external API.
+    </li>
+    <li>
+      Implemented configurable email notifications for stateful API integration, including asynchronous operations handled by external platform.
+    </li>
+    <li>
+      Developed prototype of content generation tool leveraging database of marketing language and employing natural-language processing algorithms to refine generated content.
+    </li>
+    <li>
+      Scaffolded authentication and administration systems for standalone conversion of platform-based service.
+    </li>
+  </ul>
 </details>
 
 <details open id="text-master" class="block job-history">
@@ -534,15 +573,23 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Translation</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Ruby on Rails</span>
-    <span class="tag is-light is-primary is-medium">MongoDB</span>
-    <span class="tag is-light is-primary is-medium">HAML</span>
-    <span class="tag is-light is-primary is-medium">CoffeeScript</span>
-    <span class="tag is-light is-primary is-medium">SCSS</span>
-    <span class="tag is-light is-primary is-medium">RSpec</span>
+    <span class="tag is-info is-medium">Translation</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">MongoDB</span>
+    <span class="tag is-primary is-medium">HAML</span>
+    <span class="tag is-primary is-medium">CoffeeScript</span>
+    <span class="tag is-primary is-medium">SCSS</span>
+    <span class="tag is-primary is-medium">RSpec</span>
   </p>
+  <ul class="ml-4">
+    <li>
+      Performed front- and back-end development of new features, bug fixes, and systems maintenance on large e-commerce application platform.
+    </li>
+    <li>
+      Collaborated with development team partners in New York, Paris, Hong Kong, and Moscow.
+    </li>
+  </ul>
 </details>
 
 <details open id="fantage" class="block job-history">
@@ -561,14 +608,25 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Game Development</span>
-    <span class="tag is-light is-light is-medium">Full Time</span>
-    <span class="tag is-light is-primary is-medium">Flash</span>
-    <span class="tag is-light is-primary is-medium">ActionScript 3</span>
-    <span class="tag is-light is-primary is-medium">XML</span>
-    <span class="tag is-light is-primary is-medium">Flex</span>
-    <span class="tag is-light is-primary is-medium">Starling</span>
+    <span class="tag is-info is-medium">Game Development</span>
+    <span class="tag is-medium">Full Time</span>
+    <span class="tag is-primary is-medium">Flash</span>
+    <span class="tag is-primary is-medium">ActionScript 3</span>
+    <span class="tag is-primary is-medium">XML</span>
+    <span class="tag is-primary is-medium">Flex</span>
+    <span class="tag is-primary is-medium">Starling</span>
   </p>
+  <ul class="ml-4">
+    <li>
+      Conducted major rebuilds of mission-critical, user-facing systems including user asset inventory system, user profile and personalization application, and asset sale and trading exchange.
+    </li>
+    <li>
+      Developed constellation of internal tools and libraries to ensure speed and consistency in user experience, clean interactions with existing systems and APIs, and to bootstrap rapid development of new features and modules, including libraries for stateful UI, particle systems, physics engines, and event management.
+    </li>
+    <li>
+      Presented design and concept proposals for new game projects, user interface enhancements, and internal tools and procedures to streamline development workflow.
+    </li>
+  </ul>
 </details>
 
 <details open id="tmark" class="block job-history">
@@ -587,16 +645,27 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
     </div>
   </summary>
   <p class="job-history-tags">
-    <span class="tag is-light is-info is-medium">Consulting</span>
-    <span class="tag is-light is-light is-medium">Contract</span>
-    <span class="tag is-light is-primary is-medium">HTML</span>
-    <span class="tag is-light is-primary is-medium">CSS</span>
-    <span class="tag is-light is-primary is-medium">JavaScript</span>
-    <span class="tag is-light is-primary is-medium">Flash</span>
-    <span class="tag is-light is-primary is-medium">PHP</span>
-    <span class="tag is-light is-primary is-medium">Symfony</span>
-    <span class="tag is-light is-primary is-medium">WordPress</span>
+    <span class="tag is-info is-medium">Consulting</span>
+    <span class="tag is-medium">Contract</span>
+    <span class="tag is-primary is-medium">HTML</span>
+    <span class="tag is-primary is-medium">CSS</span>
+    <span class="tag is-primary is-medium">JavaScript</span>
+    <span class="tag is-primary is-medium">Flash</span>
+    <span class="tag is-primary is-medium">PHP</span>
+    <span class="tag is-primary is-medium">Symfony</span>
+    <span class="tag is-primary is-medium">WordPress</span>
   </p>
+  <ul class="ml-4">
+    <li>
+      Developed web applications and pages using standards-compliant technologies and practices in conformance with strict internal and client guidelines.
+    </li>
+    <li>
+      Trained and mentored new hires in coding and development practices.
+    </li>
+    <li>
+      Worked with international client groups including India, China, southeast Asia, western Europe and South America.
+    </li>
+  </ul>
 </details>
 
 <h1 class="is-size-4">Education</h1>
