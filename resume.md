@@ -1,11 +1,49 @@
 ---
-layout: basic
+layout: left-sidebar
 breadcrumbs:
   - label: Home
     url: '/'
   - label: Resume
 stylesheets:
   - assets/stylesheets/resume.css
+navigation:
+  - label: Qualifications
+    url: '#qualifications'
+  - label: Experience
+    url: '#experience'
+    children:
+      - label: Nous Infosystems
+        url: '#nous-infosystems'
+      - label: TEKsystems
+        url: '#teksystems'
+      - label: BeyondSoft
+        url: '#beyondsoft'
+      - label: Andros
+        url: '#andros'
+      - label: Bounteous
+        url: '#bounteous'
+      - label: TicketEvolution
+        url: '#ticket-evolution'
+      - label: VenueNext
+        url: '#venuenext'
+      - label: ShopKeep
+        url: '#shopkeep'
+      - label: 'Dia & Co'
+        url: '#dia-and-co'
+      - label: Greenhouse
+        url: '#greenhouse'
+      - label: Vestorly
+        url: '#vestorly'
+      - label: Persado
+        url: '#persado'
+      - label: TextMaster
+        url: '#text-master'
+      - label: Fantage
+        url: '#fantage'
+      - label: T-Mark International
+        url: '#tmark'
+  - label: Education
+    url: '#education'
 ---
 
 <p class="title">Rob Smith</p>
@@ -55,7 +93,7 @@ stylesheets:
   </div>
 </div>
 
-<h1 class="is-size-4">Qualifications</h1>
+<h1 id="qualifications" class="is-size-4">Qualifications</h1>
 
 Experienced senior engineer with a demonstrated history of solving problems, engineering solutions, and collaborating across teams and cross-functional boundaries.
 
@@ -121,7 +159,7 @@ RSpec for Ruby code. Jest or Jasmine for JavaScript with React Testing Library f
 
 Foundational knowledge of Python, interested in work in Flask or Django frameworks. Interest in Elixir and Phoenix.
 
-<h1 class="is-size-4">Experience</h1>
+<h1 id="experience" class="is-size-4">Experience</h1>
 
 <details open id="nous-infosystems" class="block job-history">
   <summary>
@@ -345,7 +383,7 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
         <h2 class="is-size-5 is-inline-block">
           Senior&nbsp;Software&nbsp;Engineer
           <span class="is-inline-block has-text-weight-normal">at</span>
-          TicketEvolution
+          VenueNext
         </h2>
       </div>
       <div class="column is-one-quarter has-text-right-tablet">
@@ -668,7 +706,7 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
   </ul>
 </details>
 
-<h1 class="is-size-4">Education</h1>
+<h1 id="education" class="is-size-4">Education</h1>
 
 <details open id="tmark" class="block job-history">
   <summary>

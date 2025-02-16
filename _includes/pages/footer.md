@@ -1,7 +1,7 @@
 <footer>
   {% if page.breadcrumbs %}
   <div class="section">
-    <div class="container is-max-desktop">
+    <div class="container is-max-{{include.max-width}}">
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
           {% for breadcrumb in page.breadcrumbs %}
