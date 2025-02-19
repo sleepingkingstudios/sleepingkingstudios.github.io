@@ -25,7 +25,7 @@
         <a href="{{site.baseurl}}/about" class="navbar-item">
           About
         </a>
-        <a class="navbar-item">
+        <a href="{{site.baseurl}}/portfolio" class="navbar-item">
           Portfolio
         </a>
         <a href="{{site.baseurl}}/resume" class="navbar-item">

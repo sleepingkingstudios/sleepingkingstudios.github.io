@@ -14,7 +14,7 @@
   {% endif %}
 
   <div class="footer">
-    <div class="container is-max-desktop">
+    <div class="container is-max-{{include.max-width}}">
       <div class="columns has-text-centered is-size-5 mb-5">
         <div class="column">
           <strong>Contact</strong>
