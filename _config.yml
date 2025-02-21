@@ -13,7 +13,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - Rakefile
   - /vendor
 github: false
 markdown: kramdown
