@@ -22,7 +22,7 @@ layout: hero
     <div class="cell is-flex">
       {% capture card_body %}<p>
         My open source projects, primarily in the
-        <span class="has-text-danger-40">
+        <span class="has-text-imperial-purple">
           <i class="fa fa-gem"></i>
           Ruby
         </span>

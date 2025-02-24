@@ -19,7 +19,6 @@
         <div class="column">
           <strong>Contact</strong>
         </div>
-
         <div class="column">
           <a href="mailto:rob.smith@sleepingkingstudios.com" target="_blank">
             <span class="icon-text">
@@ -27,11 +26,9 @@
                 <i class="fa-solid fa-envelope"></i>
               </span>
             </span>
-
             Email
           </a>
         </div>
-
         <div class="column">
           <a href="https://github.com/sleepingkingstudios/" target="_blank">
             <span class="icon-text">
@@ -39,11 +36,9 @@
                 <i class="fa-brands fa-github"></i>
               </span>
             </span>
-
             GitHub
           </a>
         </div>
-
         <div class="column">
           <a href="https://www.linkedin.com/in/robert-smith-bba5a84/" target="_blank">
             <span class="icon-text">
@@ -51,12 +46,10 @@
                 <i class="fa-brands fa-linkedin"></i>
               </span>
             </span>
-
             LinkedIn
           </a>
         </div>
       </div>
-
       <p class="has-text-centered">
         Sleeping&nbsp;King&nbsp;Studios is
         <span class="icon-text">

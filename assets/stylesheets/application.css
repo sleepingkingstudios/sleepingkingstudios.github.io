@@ -1,0 +1,119 @@
+---
+layout: nil
+---
+
+/*******************************************************************************
+ * THEMES AND VARIABLES
+ ******************************************************************************/
+
+:root {
+  --imperial-purple-h: 336;
+  --imperial-purple-s: 100%;
+  --imperial-purple-l: 36%;
+  --imperial-purple: hsl(
+    var(--imperial-purple-h),
+    var(--imperial-purple-s),
+    var(--imperial-purple-l)
+  );
+  --imperial-purple-10: hsl(
+    var(--imperial-purple-h),
+    var(--imperial-purple-s),
+    11%
+  );
+  --imperial-purple-15: hsl(
+    var(--imperial-purple-h),
+    var(--imperial-purple-s),
+    16%
+  );
+  --imperial-purple-30: hsl(
+    var(--imperial-purple-h),
+    var(--imperial-purple-s),
+    31%
+  );
+  --imperial-purple-35: var(--imperial-purple);
+  --imperial-purple-85: hsl(
+    var(--imperial-purple-h),
+    var(--imperial-purple-s),
+    86%
+  );
+  --imperial-purple-95: hsl(
+    var(--imperial-purple-h),
+    var(--imperial-purple-s),
+    96%
+  );
+  --imperial-purple-base: var(--imperial-purple);
+  --imperial-purple-dark: var(--imperial-purple-15);
+  --imperial-purple-light: var(--imperial-purple-85);
+  --imperial-purple-invert: var(--imperial-purple-95);
+  --imperial-purple-dark-invert: var(--imperial-purple-light);
+  --imperial-purple-light-invert: var(--imperial-purple-dark);
+
+  --imperial-red-h: 346;
+  --imperial-red-s: 100%;
+  --imperial-red-l: 30%;
+  --imperial-red: hsl(
+    var(--imperial-red-h),
+    var(--imperial-red-s),
+    var(--imperial-red-l)
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  --imperial-purple-invert: var(--imperial-purple-10);
+
+  a { color: var(--bulma-link-70); }
+  a:hover { color: var(--bulma-link-80); }
+}
+
+[data-theme=dark],
+.theme-dark {
+  --imperial-purple-invert: var(--imperial-purple-10);
+
+  a { color: var(--bulma-link-70); }
+  a:hover { color: var(--bulma-link-80); }
+}
+
+/*******************************************************************************
+ * LAYOUTS
+ ******************************************************************************/
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column
+}
+
+.is-sticky {
+  position: sticky;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+/*******************************************************************************
+ * COLORS
+ ******************************************************************************/
+
+.hero.is-imperial-purple,
+.navbar.is-imperial-purple
+{
+  background-color: var(--imperial-purple);
+}
+
+.hero.is-imperial-purple .title,
+.hero.is-imperial-purple .subtitle,
+.navbar.is-imperial-purple .title,
+.navbar.is-imperial-purple .navbar-item {
+  color: var(--imperial-purple-invert);
+}
+
+.navbar.is-imperial-purple .navbar-item:hover {
+  background-color: var(--imperial-purple-30);
+}
+
+.has-text-imperial-purple {
+  color: var(--imperial-purple);
+}
