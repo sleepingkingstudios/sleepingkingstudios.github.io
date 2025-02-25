@@ -21,7 +21,7 @@
       </a>
     </div>
     <div id="primary-navigation" class="navbar-menu" data-navbar-target="menu">
-      <div class="navbar-start has-text-weight-medium">
+      <div class="navbar-start has-text-weight-semibold">
         <a href="{{site.baseurl}}/about" class="navbar-item">
           About
         </a>

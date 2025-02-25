@@ -48,7 +48,7 @@ breadcrumbs:
       We do not set or read cookies or other persistent identifiers to track users on this or any other site.
     </p>
     <p>
-      We do not use advertising that can violate your privacy, threaten the security of your browser through malware or unsafe practices, or otherwise interfere with your browsing experience.
+      We do not display advertising. Ads can violate your privacy, threaten the security of your browser through malware or unsafe practices, or otherwise interfere with your browsing experience.
     </p>
     <p>
       We do not purchase, sell, or exchange information about our users from, to, or with any third party for any reason.

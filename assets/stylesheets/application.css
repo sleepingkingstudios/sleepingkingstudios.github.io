@@ -59,7 +59,9 @@ layout: nil
 }
 
 @media (prefers-color-scheme: dark) {
-  --imperial-purple-invert: var(--imperial-purple-10);
+  :root {
+    --imperial-purple-invert: var(--imperial-purple-10);
+  }
 
   a { color: var(--bulma-link-70); }
   a:hover { color: var(--bulma-link-80); }

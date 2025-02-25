@@ -186,7 +186,7 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
   </p>
   <ul class="ml-4">
     <li>
-      Designed and architected transactional system for handling user inbound payment requests.
+      Designed and architected a transactional system for handling user inbound payment requests.
     </li>
     <li>
       Implemented ground-up SOAP API integration, enabling onboarding of new business partnerships using non-RESTful point of sale systems.
