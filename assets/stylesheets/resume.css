@@ -1,0 +1,10 @@
+details.job-history summary div.columns {
+  margin-bottom: -1.5rem;
+  position: relative;
+  top: -1.5rem;
+}
+
+details.job-history p.job-history-tags {
+  line-height: 2.5rem;
+  margin-left: 1rem;
+}

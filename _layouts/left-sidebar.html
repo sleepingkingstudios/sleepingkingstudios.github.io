@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% include pages/navbar.md max-width="widescreen" %}
+
+<main class="section" style="flex: 1;">
+  <div class="container is-max-widescreen content">
+    <div class="columns">
+      <aside class="column is-one-fifth is-sticky">
+        {% include pages/side-nav.md navigation=page.navigation %}
+      </aside>
+      <div class="column">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include pages/footer.md max-width="widescreen" %}
