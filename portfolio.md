@@ -158,12 +158,12 @@ and suitable for use in deployed applications.
         </a>
       </p>
       <p class="mb-1">
-        <a href="https://github.com/sleepingkingstudios/rspec-sleeping_king_studios/releases/tag/v2.7.0" target="_blank">
+        <a href="https://github.com/sleepingkingstudios/rspec-sleeping_king_studios/releases/tag/v2.8.0" target="_blank">
           <span class="icon-text">
             <span class="icon">
               <i class="fa fa-tag"></i>
             </span>
-            v2.7.0
+            v2.8.0
           </span>
         </a>
       </p>
@@ -198,12 +198,12 @@ and suitable for use in deployed applications.
         </a>
       </p>
       <p class="mb-1">
-        <a href="https://github.com/sleepingkingstudios/sleeping_king_studios-tools/releases/tag/v1.1.1" target="_blank">
+        <a href="https://github.com/sleepingkingstudios/sleeping_king_studios-tools/releases/tag/v1.2.0" target="_blank">
           <span class="icon-text">
             <span class="icon">
               <i class="fa fa-tag"></i>
             </span>
-            v1.1.1
+            v1.2.0
           </span>
         </a>
       </p>
@@ -226,7 +226,7 @@ Expect changes to public-facing code and interfaces until each library hits the 
 </span>
 release.
 
-<div class="fixed-grid has-1-cols-mobile has-3-cols mt-5 mb-5">
+<div class="fixed-grid has-1-cols-mobile has-2-cols mt-5 mb-5">
   <div class="grid">
     <div class="cell is-flex-tablet">
       {% capture card_body %}
@@ -305,6 +305,44 @@ release.
       </p>
       {% endcapture %}
       {% include card.md label="Cuprum::Rails" label_size="5" icon="train-subway" body=card_body %}
+    </div>
+    <div class="cell is-flex-tablet">
+      {% capture card_body %}
+      <p style="flex: 1">
+        Tools for generating a versioned documentation site from YARD docs.
+      </p>
+      <p class="mb-1">
+        <a href="https://rubygems.org/gems/sleeping_king_studios-docs" target="_blank">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fa fa-gem"></i>
+            </span>
+            RubyGems
+          </span>
+        </a>
+      </p>
+      <p class="mb-1">
+        <a href="https://github.com/sleepingkingstudios/sleeping_king_studios-docs" target="_blank">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fa-brands fa-github"></i>
+            </span>
+            Source Code
+          </span>
+        </a>
+      </p>
+      <p class="mb-1">
+        <a href="https://github.com/sleepingkingstudios/sleeping_king_studios-docs/releases/tag/v0.1.0" target="_blank">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fa fa-tag"></i>
+            </span>
+            v0.1.0
+          </span>
+        </a>
+      </p>
+      {% endcapture %}
+      {% include card.md label="SleepingKingStudios::Docs" label_size="5" icon="book" body=card_body %}
     </div>
     <div class="cell is-flex-tablet">
       {% capture card_body %}
