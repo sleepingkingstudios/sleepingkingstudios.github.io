@@ -2,7 +2,7 @@
 layout: basic
 breadcrumbs:
   - label: Home
-    url: '/'
+    url: '../'
   - label: Portfolio
 ---
 
@@ -116,19 +116,20 @@ and suitable for use in deployed applications.
             </a>
           </p>
           <p class="mb-1">
-            <a href="https://github.com/sleepingkingstudios/cuprum/releases/tag/v1.2.0" target="_blank">
+            <a href="https://github.com/sleepingkingstudios/cuprum/releases/tag/v1.3.0" target="_blank">
               <span class="icon-text">
                 <span class="icon">
                   <i class="fa fa-tag"></i>
                 </span>
-                v1.2.0
+                v1.3.0
               </span>
             </a>
           </p>
         </div>
       </div>
       {% endcapture %}
-      {% include card.md label="Cuprum" label_size="5" icon="gear" body=card_body %}
+      {% capture card_url %}{{site.baseurl}}/portfolio/cuprum{% endcapture %}
+      {% include card.md label="Cuprum" label_size="5" icon="gear" url=card_url body=card_body %}
     </div>
     <div class="cell is-flex-tablet">
       {% capture card_body %}
