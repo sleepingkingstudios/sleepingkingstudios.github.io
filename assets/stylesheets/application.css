@@ -120,6 +120,10 @@ body {
   background-color: var(--imperial-purple);
 }
 
+.navbar.is-imperial-purple .navbar-burger {
+  color: var(--imperial-purple-invert);
+}
+
 .hero.is-imperial-purple .title,
 .hero.is-imperial-purple .subtitle,
 .navbar.is-imperial-purple .title,
@@ -129,6 +133,27 @@ body {
 
 .navbar.is-imperial-purple .navbar-item:hover {
   background-color: var(--imperial-purple-30);
+}
+
+.navbar.is-imperial-purple .navbar-menu .navbar-item {
+  color: var(--imperial-purple);
+}
+
+.navbar.is-imperial-purple .navbar-menu .navbar-item:hover {
+  background-color: var(--imperial-purple-85);
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar.is-imperial-purple .navbar-menu .navbar-item:hover {
+    background-color: var(--imperial-purple-10);
+  }
+}
+
+[data-theme=dark],
+.theme-dark {
+  .navbar.is-imperial-purple .navbar-menu .navbar-item:hover {
+    background-color: var(--imperial-purple-10);
+  }
 }
 
 .has-text-imperial-purple {
