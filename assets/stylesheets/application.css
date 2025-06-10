@@ -86,8 +86,19 @@ body {
   flex-direction: column
 }
 
+@media screen and (max-width: 768px) {
+  .section {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .is-sticky {
+    position: sticky;
+  }
+}
+
 .is-sticky {
-  position: sticky;
   display: inline-block;
   top: 0;
   bottom: 0;

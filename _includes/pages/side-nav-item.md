@@ -3,7 +3,7 @@
     {{ include.label }}
   </a>
   {% if include.children %}
-  <ul class="is-hidden-touch mt-1 ml-0">
+  <ul class="is-hidden-mobile mt-1 ml-0">
     {% for child in include.children %}
     <li style="list-style: none;">
       <a href="{{child.url}}">{{ child.label }}</a>
