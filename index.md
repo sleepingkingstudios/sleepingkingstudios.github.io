@@ -66,4 +66,4 @@ My development philosophy:
   Experiment. Iterate. Find the right solution and then apply it. Don't keep reinventing the same wheel.
 </p>
 
-Looking for an expert developer, either for a contract or a full-time position? Need someone who will work with your team every step of the way, from business idea to product and from engineering to quality assurance? While my expertise is in Ruby, Rails, and JavaScript, I have a proven track record of picking up new languages and frameworks as needed for a project. I'm happy to discuss your needs for Node, Python, Elixir, or whatever solution is the right fit for you. <span class="is-size-7">As long as it's not PHP. Sorry, but once was enough.</span>
+Looking for an expert developer, either for a contract or a full-time position? Need someone who will work with your team every step of the way, from business idea to product and from engineering to quality assurance? While my expertise is in Ruby, Rails, and JavaScript, I have a proven track record of picking up new languages and frameworks as needed for a project. I'm happy to discuss your needs for Node, Python, Elixir, or whatever solution is the right fit for you.
