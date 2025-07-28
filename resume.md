@@ -172,7 +172,7 @@ Foundational knowledge of Python, interested in work in Flask or Django framewor
         </h2>
       </div>
       <div class="column is-one-quarter has-text-right-tablet">
-        May&nbsp;2024-Current
+        May&nbsp;2024-July&nbsp;2025
       </div>
     </div>
   </summary>
