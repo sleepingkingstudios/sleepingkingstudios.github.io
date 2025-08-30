@@ -81,6 +81,11 @@ and suitable for use in deployed applications.
         <a href="https://en.wikipedia.org/wiki/Command_pattern" target="_blank">Command pattern</a>,
         allowing projects to define encapsulated, composable logic. Supports error handling and branching logical flows using railway-oriented programming.
       </p>
+      <p>
+        <a href="{{site.baseurl}}/portfolio/cuprum">
+          About Cuprum
+        </a>
+      </p>
       <div class="columns is-7" style="padding-top: var(--bulma-column-gap); padding-bottom: var(--bulma-column-gap)">
         <div class="column py-0">
           <p class="mb-1">
@@ -138,6 +143,21 @@ and suitable for use in deployed applications.
         <a href="https://rspec.info/" target="_blank">RSpec</a>
         testing framework. Now supports deferred example groups for sharing specs between projects or repositories.
       </p>
+      <p>
+        <a href="{{site.baseurl}}/portfolio/rspec-sleeping_king_studios">
+          About RSpec::SleepingKingStudios
+        </a>
+      </p>
+      <p class="mb-1">
+        <a href="https://www.sleepingkingstudios.com/rspec-sleeping_king_studios/" target="_blank">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fa fa-book"></i>
+            </span>
+            Documentation
+          </span>
+        </a>
+      </p>
       <p class="mb-1">
         <a href="https://rubygems.org/gems/rspec-sleeping_king_studios" target="_blank">
           <span class="icon-text">
@@ -159,17 +179,18 @@ and suitable for use in deployed applications.
         </a>
       </p>
       <p class="mb-1">
-        <a href="https://github.com/sleepingkingstudios/rspec-sleeping_king_studios/releases/tag/v2.8.0" target="_blank">
+        <a href="https://github.com/sleepingkingstudios/rspec-sleeping_king_studios/releases/tag/v2.8.2" target="_blank">
           <span class="icon-text">
             <span class="icon">
               <i class="fa fa-tag"></i>
             </span>
-            v2.8.0
+            v2.8.2
           </span>
         </a>
       </p>
       {% endcapture %}
-      {% include card.md label="RSpec::SleepingKingStudios" label_size="5" icon="microscope" body=card_body %}
+      {% capture card_url %}{{site.baseurl}}/portfolio/rspec-sleeping_king_studios{% endcapture %}
+      {% include card.md label="RSpec::SleepingKingStudios" label_size="5" icon="microscope" url=card_url body=card_body %}
     </div>
     <div class="cell is-flex-tablet">
       {% capture card_body %}
