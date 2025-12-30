@@ -4,6 +4,17 @@ breadcrumbs:
   - label: Home
     url: '../'
   - label: Portfolio
+projects:
+  cuprum:
+    latest_version: v1.3.1
+  rspec_sleeping_king_studios:
+    latest_version: v2.8.3
+  sleeping_king_studios_docs:
+    latest_version: v0.2.1
+  sleeping_king_studios_tools:
+    latest_version: v1.2.1
+  stannum:
+    latest_version: v0.4.1
 ---
 
 # Portfolio
@@ -121,12 +132,12 @@ and suitable for use in deployed applications.
             </a>
           </p>
           <p class="mb-1">
-            <a href="https://github.com/sleepingkingstudios/cuprum/releases/tag/v1.3.0" target="_blank">
+            <a href="https://github.com/sleepingkingstudios/cuprum/releases/tag/{{ page.projects.cuprum.latest_version }}" target="_blank">
               <span class="icon-text">
                 <span class="icon">
                   <i class="fa fa-tag"></i>
                 </span>
-                v1.3.0
+                {{ page.projects.cuprum.latest_version }}
               </span>
             </a>
           </p>
@@ -179,12 +190,12 @@ and suitable for use in deployed applications.
         </a>
       </p>
       <p class="mb-1">
-        <a href="https://github.com/sleepingkingstudios/rspec-sleeping_king_studios/releases/tag/v2.8.2" target="_blank">
+        <a href="https://github.com/sleepingkingstudios/rspec-sleeping_king_studios/releases/tag/{{ page.projects.rspec_sleeping_king_studios.latest_version }}" target="_blank">
           <span class="icon-text">
             <span class="icon">
               <i class="fa fa-tag"></i>
             </span>
-            v2.8.2
+            {{ page.projects.rspec_sleeping_king_studios.latest_version }}
           </span>
         </a>
       </p>
@@ -198,6 +209,16 @@ and suitable for use in deployed applications.
         Functional-style tools for working with common Ruby objects, inspired by JavaScript tools such as
         <a href="https://lodash.com/" target="_blank">Lodash</a>.
         Handles common tasks such as string inflection without patching the global namespace.
+      </p>
+      <p class="mb-1">
+        <a href="https://www.sleepingkingstudios.com/sleeping_king_studios-tools/" target="_blank">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fa fa-book"></i>
+            </span>
+            Documentation
+          </span>
+        </a>
       </p>
       <p class="mb-1">
         <a href="https://rubygems.org/gems/sleeping_king_studios-tools" target="_blank">
@@ -220,12 +241,12 @@ and suitable for use in deployed applications.
         </a>
       </p>
       <p class="mb-1">
-        <a href="https://github.com/sleepingkingstudios/sleeping_king_studios-tools/releases/tag/v1.2.0" target="_blank">
+        <a href="https://github.com/sleepingkingstudios/sleeping_king_studios-tools/releases/tag/{{ page.projects.sleeping_king_studios_tools.latest_version }}" target="_blank">
           <span class="icon-text">
             <span class="icon">
               <i class="fa fa-tag"></i>
             </span>
-            v1.2.0
+            {{ page.projects.sleeping_king_studios_tools.latest_version }}
           </span>
         </a>
       </p>
@@ -276,12 +297,12 @@ release.
         </a>
       </p>
       <p class="mb-1">
-        <a href="https://github.com/sleepingkingstudios/cuprum-collections/releases/tag/v0.4.0" target="_blank">
+        <a href="https://github.com/sleepingkingstudios/cuprum-collections/releases/tag/v0.5.0" target="_blank">
           <span class="icon-text">
             <span class="icon">
               <i class="fa fa-tag"></i>
             </span>
-            v0.4.0
+            v0.5.0
           </span>
         </a>
       </p>
@@ -354,12 +375,12 @@ release.
         </a>
       </p>
       <p class="mb-1">
-        <a href="https://github.com/sleepingkingstudios/sleeping_king_studios-docs/releases/tag/v0.1.0" target="_blank">
+        <a href="https://github.com/sleepingkingstudios/sleeping_king_studios-docs/releases/tag/{{ page.projects.sleeping_king_studios_docs.latest_version }}" target="_blank">
           <span class="icon-text">
             <span class="icon">
               <i class="fa fa-tag"></i>
             </span>
-            v0.1.0
+            {{ page.projects.sleeping_king_studios_docs.latest_version }}
           </span>
         </a>
       </p>
@@ -392,12 +413,12 @@ release.
         </a>
       </p>
       <p class="mb-1">
-        <a href="https://github.com/sleepingkingstudios/stannum/releases/tag/v0.3.0" target="_blank">
+        <a href="https://github.com/sleepingkingstudios/stannum/releases/tag/{{ page.projects.stannum.latest_version }}" target="_blank">
           <span class="icon-text">
             <span class="icon">
               <i class="fa fa-tag"></i>
             </span>
-            v0.3.0
+            {{ page.projects.stannum.latest_version }}
           </span>
         </a>
       </p>
