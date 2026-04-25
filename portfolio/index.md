@@ -8,11 +8,11 @@ projects:
   cuprum:
     latest_version: v1.3.1
   rspec_sleeping_king_studios:
-    latest_version: v2.8.3
+    latest_version: v2.8.4
   sleeping_king_studios_docs:
     latest_version: v0.2.1
   sleeping_king_studios_tools:
-    latest_version: v1.2.1
+    latest_version: v1.3.0
   stannum:
     latest_version: v0.4.1
 ---
