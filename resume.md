@@ -12,6 +12,10 @@ navigation:
   - label: Experience
     url: '#experience'
     children:
+      - label: NYC Department of Transportation
+        url: '#nyc-department-of-transportation'
+      - label: Project Read AI
+        url: '#project-read-ai'
       - label: Nous Infosystems
         url: '#nous-infosystems'
       - label: TEKsystems
@@ -97,7 +101,7 @@ navigation:
 
 Experienced senior engineer with a demonstrated history of solving problems, engineering solutions, and collaborating across teams and cross-functional boundaries.
 
-- Over fourteen years of professional experience across a wide range of front- and back-end
+- Over fifteen years of professional experience across a wide range of front- and back-end
 technologies, including monolithic and microservice architectures.
 - Advanced analysis and design of complex systems, with a particular focus on breaking
 down complex problems and developing reusable solutions.
@@ -160,6 +164,84 @@ RSpec for Ruby code. Jest or Jasmine for JavaScript with React Testing Library f
 Foundational knowledge of Python, interested in work in Flask or Django frameworks. Interest in Elixir and Phoenix.
 
 <h1 id="experience" class="is-size-4">Experience</h1>
+
+<details open id="nyc-department-of-transportation" class="block job-history">
+  <summary>
+    <div class="columns ml-2">
+      <div class="column pb-0">
+        <h2 class="is-size-5 is-inline-block">
+          Senior&nbsp;IT&nbsp;Architect
+          <span class="is-inline-block has-text-weight-normal">at</span>
+          NYC&nbsp;Department&nbsp;of&nbsp;Transportation
+        </h2>
+      </div>
+      <div class="column is-one-quarter has-text-right-tablet">
+        Nov&nbsp;2025-Current
+      </div>
+    </div>
+  </summary>
+  <p class="job-history-tags">
+    <span class="tag is-info is-medium">Government</span>
+    <span class="tag is-medium">Contract</span>
+    <span class="tag is-primary is-medium">Ruby on Rails</span>
+    <span class="tag is-primary is-medium">JavaScript</span>
+    <span class="tag is-primary is-medium">React</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">PostgreSQL</span>
+    <span class="tag is-primary is-medium">RSpec</span>
+    <span class="tag is-primary is-medium">Capybara</span>
+  </p>
+  <ul class="ml-4">
+    <li>
+      Implemented key features for major feature revision in requisitions module, from authorization to implementing Rails APIs and React interfaces.
+    </li>
+    <li>
+      Developed and launched rebuild of in-place requirement for deprecated mission-critical geolocation API service, enabling progressive replacement of legacy implementation while ensuring full backwards compatibility with existing consumers and services.
+    </li>
+    <li>
+      Proposed, documented, and implemented novel internal framework for automated browser testing using industry best practices while aligning with existing team capabilities and technical competencies. Developed library of page and component interactions for rapid implementation and deployment of tested features.
+    </li>
+    <li>
+      Worked with internal stakeholders including project management and business analysts.
+    </li>
+    <li>
+      Provided high-level technical leadership and mentoring for engineering staff.
+    </li>
+  </ul>
+</details>
+
+<details open id="project-read-ai" class="block job-history">
+  <summary>
+    <div class="columns ml-2">
+      <div class="column pb-0">
+        <h2 class="is-size-5 is-inline-block">
+          Contractor
+          <span class="is-inline-block has-text-weight-normal">at</span>
+          Project&nbsp;Read&nbsp;AI
+        </h2>
+      </div>
+      <div class="column is-one-quarter has-text-right-tablet">
+        Oct&nbsp;2025
+      </div>
+    </div>
+  </summary>
+  <p class="job-history-tags">
+    <span class="tag is-info is-medium">Educational Technology</span>
+    <span class="tag is-medium">Contract</span>
+    <span class="tag is-primary is-medium">TypeScript</span>
+    <span class="tag is-primary is-medium">React</span>
+    <span class="tag is-primary is-medium">Next.js</span>
+    <span class="tag is-primary is-medium">Vitest</span>
+  </p>
+  <ul class="ml-4">
+    <li>
+      Architected and reimplemented full stack OCR workflow from data modeling to AI integration, resulting in improved observability and performance.
+    </li>
+    <li>
+      Performed cleanup and normalization of AI-generated software implementations.
+    </li>
+  </ul>
+</details>
 
 <details open id="nous-infosystems" class="block job-history">
   <summary>

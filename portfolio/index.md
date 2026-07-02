@@ -7,6 +7,8 @@ breadcrumbs:
 projects:
   cuprum:
     latest_version: v1.3.1
+  cuprum_cli:
+    latest_version: v0.1.0
   rspec_sleeping_king_studios:
     latest_version: v2.8.4
   sleeping_king_studios_docs:
@@ -271,6 +273,44 @@ release.
 
 <div class="fixed-grid has-1-cols-mobile has-2-cols mt-5 mb-5">
   <div class="grid">
+    <div class="cell is-flex-tablet">
+      {% capture card_body %}
+      <p style="flex: 1">
+        A command-line utility powered by Cuprum that provides tools and utilities for defining command-line tools.
+      </p>
+      <p class="mb-1">
+        <a href="https://rubygems.org/gems/cuprum-cli" target="_blank">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fa fa-gem"></i>
+            </span>
+            RubyGems
+          </span>
+        </a>
+      </p>
+      <p class="mb-1">
+        <a href="https://github.com/sleepingkingstudios/cuprum-cli" target="_blank">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fa-brands fa-github"></i>
+            </span>
+            Source Code
+          </span>
+        </a>
+      </p>
+      <p class="mb-1">
+        <a href="https://github.com/sleepingkingstudios/cuprum-cli/releases/tag/{{ page.projects.cuprum_cli.latest_version }}" target="_blank">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fa fa-tag"></i>
+            </span>
+            {{ page.projects.cuprum_cli.latest_version }}
+          </span>
+        </a>
+      </p>
+      {% endcapture %}
+      {% include card.md label="Cuprum::Cli" label_size="5" icon="terminal" body=card_body %}
+    </div>
     <div class="cell is-flex-tablet">
       {% capture card_body %}
       <p style="flex: 1">
