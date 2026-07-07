@@ -10,7 +10,7 @@ projects:
   cuprum_cli:
     latest_version: v0.1.0
   rspec_sleeping_king_studios:
-    latest_version: v2.8.4
+    latest_version: v2.8.5
   sleeping_king_studios_docs:
     latest_version: v0.2.1
   sleeping_king_studios_tools:
