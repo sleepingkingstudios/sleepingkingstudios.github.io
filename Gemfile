@@ -11,4 +11,4 @@ gem 'kramdown-parser-gfm', '~> 1.1'
 # Use Webrick as local content server.
 gem 'webrick', '~> 1.9'
 
-ruby '4.0.5'
+ruby '4.0.6'
