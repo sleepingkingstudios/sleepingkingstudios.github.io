@@ -57,7 +57,7 @@
             <i class="fa fa-copyright"></i>
           </span>
         </span>
-        Copyright&nbsp;2013-2025 Rob&nbsp;Smith
+        Copyright&nbsp;2013-2026 Rob&nbsp;Smith
       </p>
       <p class="has-text-centered is-italic mt-1">
         Hic&nbsp;Iacet&nbsp;Arthurus Rex&nbsp;Quondam Rexque&nbsp;Futurus
