@@ -6,7 +6,7 @@ layout: hero
   Welcome to <span class="has-text-success has-text-weight-semibold">Sleeping King Studios</span>, my imprint and portfolio!
 </p>
 
-I'm Rob Smith, a senior software engineer with 14 years of professional development experience, primarily for startup companies and contract roles. I have particular expertise in the areas of automated testing and systems design. I develop and maintain a library of open source tools, and I've also worked as a professional tabletop game designer.
+I'm Rob Smith, a senior software engineer with over 15 years of professional development experience, primarily for startup companies and contract roles. I have particular expertise in the areas of automated testing and systems design. I develop and maintain a library of open source tools, and I've also worked as a professional tabletop game designer.
 
 <div class="fixed-grid has-1-cols-mobile has-3-cols mt-5 mb-5">
   <div class="grid">
